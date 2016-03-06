@@ -26,17 +26,17 @@ html部分代码
     <div class="poster-btn poster-next-btn"></div>
 </div>
 ```
-其中data-setting用于设置用户自定义参数，主要的设置参数有：  
-总的宽度width  
-总的高度height  
-当前展示图片的宽度posterWidth  
-当前展示图片的高度posterHeight  
-图片之间的缩放比例scale  
-是否启动自动播放autoplay  
-图片之间的切换时间delay  
-图片切换速度speed  
-设置图片的对齐方式vertecalAlign，有三种对其方式，分别是：top, middle, bottom  
-如果没有设置，则所有的参数采用默认值；如需要设置，则使用JSON格式，如：  
+> 其中data-setting用于设置用户自定义参数，主要的设置参数有：  
+1 总的宽度width  
+2 总的高度height  
+3 当前展示图片的宽度posterWidth  
+4 当前展示图片的高度posterHeight  
+5 图片之间的缩放比例scale  
+6 是否启动自动播放autoplay  
+7 图片之间的切换时间delay  
+8 图片切换速度speed  
+9 设置图片的对齐方式vertecalAlign，有三种对其方式，分别是：top, middle, bottom  
+>> 如果没有设置，则所有的参数采用默认值；如需要设置，则使用JSON格式，如：  
 data-setting{  
 	"width":1000,  
 	"height":270,  
