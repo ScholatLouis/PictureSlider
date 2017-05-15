@@ -1,10 +1,10 @@
 # PictureSlider
 使用jQuery编写的图片幻灯片轮播插件
 
-###兼容性
+### 兼容性
 IE7.0及其以上的IE版本；Firefox30；Chrome27
 
-###使用方法
+### 使用方法
 html部分代码
 ```HTML
 <div class="pictureSlider poster-main" data-setting='{}'>
